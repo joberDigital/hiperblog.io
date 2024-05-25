@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background:url("imagenes/cafe.png");
+}
+    .container2{
+        width:350px;
+        height:510px;
+        border: 5px groove;
+    }    
+.card{
+    padding: 5px;
+    margin: 10px 2px;
+    border-radius: 100px;
+    backdrop-filter: blur(4px); 
+    background: transparent;
+    box-sizing: border-box;
+}
+.card2{
+    width: auto;
+    border:groove 5px rgb(180, 180, 216);
+    margin: 10px; 
+   }
+.g-0{
+position: absolute;
+ }
+.mb-3{
+    max-width: 120px;
+    border:groove 5px rgb(180, 180, 216);
+       border-right: none;
+display: flex; 
+align-items: center;
+margin: 20px ;
+}
+.img-fluid{
+ max-width: 100px;
+ margin: 5px 5px;
+}
+.row{
+        display:flex;
+    flex-direction: row;
+width: 400px;
+    flex-wrap: wrap;   
+padding: 1px;
+}
+ .card-body{
+border-radius: 10px;
+    text-align: center;
+padding: 15px;
+height:140px;
+width: 90px;
+backdrop-filter: blur(50px); 
+background: transparent;
+}
+.card-title{
+    font-size: 20px;
+    color: blue;
+}
+.card-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+.btn{
+    background-color: rgb(180, 180, 216);
+border:solid 2px blue;
+border-radius: 10px;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.container{
+    width: auto;
+    font-size: 15px;
+    color: red;
+margin:10px auto;
+font-weight: bold;
+padding: 5px;
+box-sizing: border-box;
+}
+.bienvenida{
+    font-size: 15px;
+    color: blue;
+    width: 750px;
+margin:  10px 10px;
+font-weight: bold;
+}
+.h2{
+    color: red;
+    font-size: 15px;
+    width: 360px;
+margin:  10px 10px;
+font-weight: bold;
+background:  rgb(180, 180, 216);;
+}
+.pasos{
+    color: blue;
+    font-size: 15px;
+    width: 280px;
+margin:  10px 50px;
+font-weight: bold;
+text-align: center;
+}
+.h3{
+    color: red;
+    font-size: 15px;
+    width: 280px;
+margin:  10px 50px;
+font-weight: bold;
+text-align: center;
+background:  rgb(180, 180, 216);;
+}
+.h4{
+    color: blue;
+    font-size: 15px;
+    width: 280px;
+margin:  10px 50px;
+font-weight: bold;
+text-align: center;
+background:  rgb(180, 180, 216);;
+}
+.h5{
+    color: red;
+    font-size: 15px;
+    width: 280px;
+margin:  10px 50px;
+font-weight: bold;
+text-align: center;
+background:  rgb(180, 180, 216);;
+}
+ @media(min-width: 769px) {
+	.container {
+		width: auto;	
+	align-items: center;
+    }
+    .pasos{
+       width:  280px;
+    }
+}
