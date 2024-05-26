@@ -86,40 +86,45 @@ box-sizing: border-box;
 .bienvenida{
     font-size: 15px;
     color: blue;
-    width: 750px;
-margin:  10px 10px;
+    width: 360px;
+margin:  20px 10px;
 font-weight: bold;
+padding: 10px 0px;
 }
 .h2{
     color: red;
     font-size: 15px;
     width: 360px;
-margin:  10px 10px;
+margin:  20px 10px;
 font-weight: bold;
 background:  rgb(180, 180, 216);;
+padding: 10px 0px;
 }
 .pasos{
     color: blue;
     font-size: 15px;
     width: 280px;
-margin:  10px 50px;
+margin:  0px 50px;
 font-weight: bold;
 text-align: center;
+padding: 20px 0px;
 }
 .h3{
     color: red;
     font-size: 15px;
     width: 280px;
-margin:  10px 50px;
+margin:  0px 50px;
 font-weight: bold;
 text-align: center;
 background:  rgb(180, 180, 216);;
+padding: 20px 0px;
+
 }
 .h4{
     color: blue;
     font-size: 15px;
     width: 280px;
-margin:  10px 50px;
+margin:  20px 40px;
 font-weight: bold;
 text-align: center;
 background:  rgb(180, 180, 216);;
@@ -128,7 +133,7 @@ background:  rgb(180, 180, 216);;
     color: red;
     font-size: 15px;
     width: 280px;
-margin:  10px 50px;
+padding:  20px 40px;
 font-weight: bold;
 text-align: center;
 background:  rgb(180, 180, 216);;
@@ -138,7 +143,7 @@ background:  rgb(180, 180, 216);;
 		width: auto;	
 	align-items: center;
     }
-    .pasos{
+    .bienvenida .h2 .h3 .h4 .h5 .pasos{
        width:  280px;
     }
 }
